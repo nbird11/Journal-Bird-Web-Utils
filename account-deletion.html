@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="index.css" /> -->
+    <link rel="stylesheet" href="account-deletion.css" />
+    <title>Account Deletion Request</title>
+  </head>
+  <body>
+    <div class="content">
+      <h1 class="text-center">Journal Bird Account Deletion Request</h1>
+      <p class="text-center" style="font-style: italic;">
+        Your account will be deleted within 30 days of your request.
+      </p>
+      <p class="text-center">Back to <a href="index.html">Home Page</a></p>
+
+      <br />
+
+      <form action="https://formspree.io/f/xgegpkdp" method="POST">
+        <label>
+          Your username: <span style="font-size: 12px; color: darkred">*</span>
+          <br />
+          <input type="username" name="Username" required />
+        </label>
+        <br />
+        <label>
+          Your message:
+          <br />
+          <textarea name="Message"></textarea>
+        </label>
+        <br />
+        <button type="submit">Submit Request</button>
+      </form>
+    </div>
+    <footer>
+      <p class="text-center">&copy; 2024 Journal Bird. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
