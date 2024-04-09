@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="form-page.css" />
+    <title>Submit Feedback</title>
+  </head>
+  <body>
+    <div class="content">
+      <h1 class="text-center">Journal Bird Feedback Submission</h1>
+      <p class="text-center" style="font-style: italic">
+        Let us know what you think of the app or how we can improve it.
+      </p>
+      <p class="text-center">Back to <a href="index.html">Home Page</a></p>
+
+      <br />
+
+      <form action="https://formspree.io/f/mjvnpokp" method="POST">
+        <label>
+          Email:
+          <br />
+          <input type="email" name="email" />
+        </label>
+        <label>
+          Feedback:
+          <br />
+          <textarea name="feedback"></textarea>
+        </label>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+    <footer>
+      <p class="text-center">&copy; 2024 Journal Bird. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
