@@ -64,12 +64,12 @@ a:hover {
   text-decoration: none;
 }
 
-.red-star {
+span.red-star {
   font-size: 14px;
   color: darkred;
 }
 
-.optional {
+span.optional {
   color: #777;
 }
 
