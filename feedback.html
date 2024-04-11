@@ -19,14 +19,15 @@
 
       <form action="https://formspree.io/f/mjvnpokp" method="POST">
         <label>
-          Email:
+          Email: <span class="optional">(optional)</span>
           <br />
           <input type="email" name="email" />
         </label>
+        <br />
         <label>
-          Feedback:
+          Feedback: <span class="red-star">*</span>
           <br />
-          <textarea name="feedback"></textarea>
+          <textarea name="feedback" required></textarea>
         </label>
         <button type="submit">Send</button>
       </form>
