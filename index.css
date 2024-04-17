@@ -2,7 +2,7 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
   padding: 20px;
-  max-width: 800px;
+  max-width: 1000px;
   margin: auto;
   background-color: #f4f4f4;
 }
@@ -30,24 +30,31 @@ a:hover {
   background-color: #005f73;
 }
 
+.content {
+  display: flex;
+  gap: 20px;
+}
+
 .container {
   background: #fff;
   padding: 20px;
+  margin-top: 20px;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   text-align: center;
 }
 
-.updates-feed {
+.updates-feed, .todo {
   background: #fff;
   padding: 20px;
-  margin-top: 30px;
   border-radius: 5px;
   box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.3);
+  margin-inline: auto;
+}
+
+.updates-feed {
   text-align: center;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
+  width: 60%;
 }
 
 .updates-feed iframe {
@@ -60,7 +67,17 @@ a:hover {
 
 .updates-feed h2 {
   color: #333;
-  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+
+.todo {
+  width: 40%;
+  height: fit-content;
+  text-align: left;
+}
+
+.strike {
+  text-decoration: line-through;
 }
 
 .links {
