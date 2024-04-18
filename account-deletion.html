@@ -3,38 +3,49 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="form-page.css" />
-    <link rel="icon" href="assets/JournalBird-AppIcon.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/form-page.css" />
+    <link
+      rel="icon"
+      href="assets/JournalBird-AppIcon.png"
+      type="image/x-icon"
+    />
     <title>Account Deletion Request</title>
   </head>
   <body>
-    <div class="content">
-      <h1 class="text-center">Journal Bird Account Deletion Request</h1>
-      <p class="text-center" style="font-style: italic;">
-        Your account will be deleted within 30 days of your request.
-      </p>
-      <p class="text-center">Back to <a href="index.html">Home Page</a></p>
+    <div class="page-container">
+      <div id="header"></div>
+      <script src="./scripts/loadHeader.js"></script>
 
-      <br />
+      <div class="content">
+        <h1 class="text-center">Account Deletion Request</h1>
+        <p class="text-center" style="font-style: italic">
+          Your account will be deleted within 30 days of your request.
+        </p>
 
-      <form action="https://formspree.io/f/xgegpkdp" method="POST">
-        <label>
-          Username: <span class="red-star">*</span>
-          <br />
-          <input type="username" name="Username" required />
-        </label>
         <br />
-        <label>
-          Message: <span class="optional">(optional)</span>
+
+        <form action="https://formspree.io/f/xgegpkdp" method="POST">
+          <label>
+            Username: <span class="red-star">*</span>
+            <br />
+            <input type="username" name="Username" required />
+          </label>
           <br />
-          <textarea name="Message"></textarea>
-        </label>
-        <br />
-        <button type="submit">Submit Request</button>
-      </form>
+          <label>
+            Message: <span class="optional">(optional)</span>
+            <br />
+            <textarea name="Message"></textarea>
+          </label>
+          <br />
+          <button type="submit">Submit Request</button>
+        </form>
+      </div>
+      <footer>
+        <p class="text-center">
+          &copy; 2024 Journal Bird. All rights reserved.
+        </p>
+      </footer>
     </div>
-    <footer>
-      <p class="text-center">&copy; 2024 Journal Bird. All rights reserved.</p>
-    </footer>
   </body>
 </html>
