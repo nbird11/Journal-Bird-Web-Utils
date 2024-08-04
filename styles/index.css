@@ -37,6 +37,10 @@ body {
   color: #333;
 }
 
+.updates-feed .email {
+  text-align: justify;
+}
+
 .updates-feed iframe {
   max-width: 100%;
   margin-block: 10px;

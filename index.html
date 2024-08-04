@@ -1,88 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/index.css" />
-    <link
-      rel="icon"
-      href="assets/JournalBird-AppIcon.png"
-      type="image/x-icon"
-    />
-    <link rel="stylesheet" href="./styles/header.css">
-    <title>Journal Bird Home</title>
-  </head>
-  <body>
-    <div id="header"></div>
-    <script src="./scripts/loadHeader.js"></script>
 
-    <div class="content">
-      <div class="container updates-feed">
-        <h2>App Updates & News</h2>
-        <br />
-        <iframe
-          width="500"
-          height="300"
-          src="https://www.youtube.com/embed/3DLyW0TV9Mg"
-          title="Journal Bird App Demonstration"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
-        <iframe
-          src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3D3807827886155599%26id%3D100007852755621&show_text=true&width=500"
-          width="500"
-          height="581"
-          scrolling="no"
-          frameborder="0"
-          allowfullscreen="true"
-          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-        ></iframe>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles/index.css" />
+  <link rel="icon" href="assets/JournalBird-AppIcon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="./styles/header.css">
+  <title>Journal Bird Home</title>
+</head>
+
+<body>
+  <div id="header"></div>
+  <script src="./scripts/loadHeader.js"></script>
+
+  <div class="content">
+    <div class="container updates-feed">
+      <h2>App Updates & News</h2>
+      <div class="container email">
+        <h3>Email to the testing team:</h3>
+        <i>Subject: End of Testing</i>
+        <p>
+          Hi everybody,
+
+          <br><br>
+          I wanted to reach out and thank all of you for expressing your interest with this journal app project.
+          Unfortunately we never quite reached the amount of people actively enrolled in the test to meet the criteria
+          for entering the publishing phase, so I won't be able to officially publish the app on Google Play. With the
+          amount of time that has passed, I am comfortable with how the testing went and am ready to officially end this
+          testing process.
+
+          <br><br>
+          <b style="text-decoration:underline">Important Info:</b>
+          <br>
+          At the close of testing, <b>you will no longer have access to your account within the app;</b> however, any
+          journal entries that you may have created <b>will still be available for me to access and retrieve for
+            you.</b> If you would like to receive your journal entries, please <b>reply directly to this email</b> and
+          we can work that out together.
+
+          <br><br>
+          Once again, I'd like to thank you all for your participation and interest in this project.
+          <br>
+          - Nathan Bird
+        </p>
       </div>
-      <div class="container todo">
-        <h3>Todo Items</h3>
-        <ul>
-          <li class="strike">Auto capitalizing journal entry body content sentences.</li>
-          <li class="strike">Change 'Body' label to 'Thoughts'.</li>
-          <li class="strike">Remove the mood field.</li>
-          <li class="strike">Replace mood with tags and make them optional.</li>
-          <li class="strike">Fix bug with creating new entry while tags are selected.</li>
-          <li class="strike">Add ability to delete tags.</li>
-          <!-- <li class="strike">Make title optional?</li> -->
-          <!-- <ul> -->
-            <!-- <li class="strike">Maybe display date as title portion for card components?</li> -->
-          <!-- </ul> -->
-          <li>Filter list of all entries:</li>
-          <ul>
-            <li>by tag.</li>
-            <li>by date.</li>
-            <li>by search.</li>
-          </ul>
-          <li>Enhance user login component ui:</li>
-          <ul>
-            <li>See input fields while device keyboard is present.</li>
-            <li>More visible password requirements error message.</li>
-            <li>Sign In vs. Create Account tab visibility.</li>
-            <li>Sign In vs. Create Account page height disparity.</li>
-          </ul>
-        </ul>
-        <h3>Future Features</h3>
-        <ul>
-          <li class="">Add ability to color tags.</li>
-          <li>Photo and audio uploading to attach to journal entries.</li>
-          <ul>
-            <li>Utilize device camera and microphone.</li>
-          </ul>
-          <li>Custom color schemes other than default Ionic blue.</li>
-          <li>ChatGPT inline suggestions or other integration.</li>
-          <li>Device calendar integration.</li>
-          <li>Push notifications?</li>
-        </ul>
-      </div>
+      <br>
+      <iframe width="500" height="300" src="https://www.youtube.com/embed/3DLyW0TV9Mg"
+        title="Journal Bird App Demonstration" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe
+        src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3D3807827886155599%26id%3D100007852755621&show_text=true&width=500"
+        width="500" height="581" scrolling="no" frameborder="0" allowfullscreen="true"
+        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
     </div>
-    <footer>
-      <p>&copy; 2024 Nathan Bird. All rights reserved.</p>
-    </footer>
-  </body>
+    <div class="container todo">
+      <h3>Todo Items</h3>
+      <ul>
+        <li class="strike">Auto capitalizing journal entry body content sentences.</li>
+        <li class="strike">Change 'Body' label to 'Thoughts'.</li>
+        <li class="strike">Remove the mood field.</li>
+        <li class="strike">Replace mood with tags and make them optional.</li>
+        <li class="strike">Fix bug with creating new entry while tags are selected.</li>
+        <li class="strike">Add ability to delete tags.</li>
+        <!-- <li class="strike">Make title optional?</li> -->
+        <!-- <ul> -->
+        <!-- <li class="strike">Maybe display date as title portion for card components?</li> -->
+        <!-- </ul> -->
+        <li>Filter list of all entries:</li>
+        <ul>
+          <li>by tag.</li>
+          <li>by date.</li>
+          <li>by search.</li>
+        </ul>
+        <li>Enhance user login component ui:</li>
+        <ul>
+          <li>See input fields while device keyboard is present.</li>
+          <li>More visible password requirements error message.</li>
+          <li>Sign In vs. Create Account tab visibility.</li>
+          <li>Sign In vs. Create Account page height disparity.</li>
+        </ul>
+      </ul>
+      <h3>Future Features</h3>
+      <ul>
+        <li class="">Add ability to color tags.</li>
+        <li>Photo and audio uploading to attach to journal entries.</li>
+        <ul>
+          <li>Utilize device camera and microphone.</li>
+        </ul>
+        <li>Custom color schemes other than default Ionic blue.</li>
+        <li>ChatGPT inline suggestions or other integration.</li>
+        <li>Device calendar integration.</li>
+        <li>Push notifications?</li>
+      </ul>
+    </div>
+  </div>
+  <footer>
+    <p>&copy; 2024 Nathan Bird. All rights reserved.</p>
+  </footer>
+</body>
+
 </html>
