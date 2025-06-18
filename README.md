@@ -1,6 +1,7 @@
 # Journal Bird Web Utils
 
-> [!WARNING] This project is not currently longer active.
+> [!WARNING]
+> This project is not currently active.
 
 This repository contains the source code for the Journal Bird companion website. Journal Bird was a mobile application for journaling that was in a testing phase but is no longer in active development and was never published.
 
